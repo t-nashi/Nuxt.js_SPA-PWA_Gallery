@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+// ==========================================================================
+// CSS設計=FLOCSS
+// ==========================================================================
+// Foundation
+@import 'foundation/_reset';                // reset-css
+@import 'foundation/_variables-color';      // 色定義
+@import 'foundation/_variables-breakpoint'; // ブレイクポイント定義
+@import 'foundation/_mixins';               // メディアクエリ用設定
+@import 'foundation/_base';                 // ベースstyle
+
+// Layout（l-*）
+// @import 'layout/_l-xxx';
+
+// Object
+// - Component（c-*）
+// @import 'object/component/_c-xxx';
+
+// - Project（p-*）
+// @import 'object/project/_p-xxx';
+
+// - Utility（u-*）
+// @import 'object/utility/_u-xxx';
+
+// for文でのclass定義サンプル
+// @import 'object/utility/_font-size';
+// @import 'object/utility/_margin-padding';

@@ -1,0 +1,28 @@
+// 色定義
+// colors - theme
+$color-primary: #51bba7;
+$color-primary-light: lighten($color-primary, 10%);
+$color-primary-dark: darken($color-primary, 20%);
+$color-secondary: #f9f9f9;
+$color-secondary-light: lighten($color-secondary, 10%);
+$color-secondary-dark: darken($color-secondary, 30%);
+$color-black: #000;
+$color-gray: #888;
+$color-gray-light-1: lighten($color-gray, 10%);
+$color-gray-light-2: lighten($color-gray, 20%);
+$color-gray-dark-1: darken($color-gray, 10%);
+$color-gray-dark-2: darken($color-gray, 20%);
+$color-white: #fff;
+$color-warning: #ff0;
+$color-danger: #f00;
+$color-success: #0f0;
+$color-info: #00f;
+$color-text: #333;
+$color-text-light: lighten($color-text, 20%);
+$color-text-dark: darken($color-text, 20%);
+$color-border: #555;
+$color-border-light: lighten($color-border, 10%);
+$color-border-dark: darken($color-border, 20%);
+
+// color - target
+$color-bg-wrapper: #f9f9f9;

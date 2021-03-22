@@ -1,0 +1,40 @@
+// set html5 elements to block
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+// box-sizing - paddingやborderに依存しないwidthやheight指定
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+// ==========================================================================
+// GENERAL SETTING
+// ==========================================================================
+html {
+  // 10px = 1rem
+  font-size: 62.5%;
+  // disable webkit text size adjust
+  -webkit-text-size-adjust: 100%;
+  min-height: 100vh;
+}
+body {
+  font: 1.6rem/1.8 "メイリオ",Meiryo,"Helvetica Neue",Helvetica,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック","MS PGothic",Arial,sans-serif;
+  color: $color-text;
+  background-color: $color-bg-wrapper;
+  min-height: 100vh;
+}
+#__nuxt {
+  min-height: 100vh;
+}
+#__layout {
+  min-height: 100vh;
+}
+a {
+  &:link { color: inherit; }     // 未訪問のリンクの色
+  &:visited { color: inherit; }  // 訪問済みのリンクの色
+  &:hover { color: inherit; }    // カーソルが乗っているリンクの色
+  &:active { color: inherit; }   // クリック中のリンクの色
+  &:hover, &:active {
+    @include cursor-pointer();
+  }
+}

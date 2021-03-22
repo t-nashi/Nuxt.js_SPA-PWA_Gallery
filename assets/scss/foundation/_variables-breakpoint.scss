@@ -1,0 +1,16 @@
+// ブレイクポイント定義
+$breakpoint-width-ss: 340px;
+$breakpoint-width-sg: 360px;
+$breakpoint-width-sm: 576px;
+$breakpoint-width-md: 768px;
+$breakpoint-width-lg: 992px;
+$breakpoint-width-xl: 1200px;
+$breakpoint-width-xxl: 1400px;
+
+$breakpoint-width-ss-down: ($breakpoint-width-ss - 1);
+$breakpoint-width-sg-down: ($breakpoint-width-sg - 1);
+$breakpoint-width-sm-down: ($breakpoint-width-sm - 1);
+$breakpoint-width-md-down: ($breakpoint-width-md - 1);
+$breakpoint-width-lg-down: ($breakpoint-width-lg - 1);
+$breakpoint-width-xl-down: ($breakpoint-width-xl - 1);
+$breakpoint-width-xxl-down: ($breakpoint-width-xxl - 1);

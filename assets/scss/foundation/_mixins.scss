@@ -1,0 +1,69 @@
+// 変数の定義
+// min-width
+$breakpoint-up: (
+  "ss": "screen and (min-width: #{$breakpoint-width-ss})",
+  "sg": "screen and (min-width: #{$breakpoint-width-sg})",
+  "sm": "screen and (min-width: #{$breakpoint-width-sm})",
+  "md": "screen and (min-width: #{$breakpoint-width-md})",
+  "lg": "screen and (min-width: #{$breakpoint-width-lg})",
+  "xl": "screen and (min-width: #{$breakpoint-width-xl})",
+  "xxl": "screen and (min-width: #{$breakpoint-width-xxl})"
+) !default;
+
+// max-width
+$breakpoint-down: (
+  "ss": "screen and (max-width: #{$breakpoint-width-ss-down})",
+  "sg": "screen and (max-width: #{$breakpoint-width-sg-down})",
+  "sm": "screen and (max-width: #{$breakpoint-width-sm-down})",
+  "md": "screen and (max-width: #{$breakpoint-width-md-down})",
+  "lg": "screen and (max-width: #{$breakpoint-width-lg-down})",
+  "xl": "screen and (max-width: #{$breakpoint-width-xl-down})",
+  "xxl": "screen and (max-width: #{$breakpoint-width-xxl-down})"
+) !default;
+
+// mixinの定義
+// --------------------------------------------------
+
+// width-breakpoint
+@mixin mq-up($breakpoint: md) {
+  @media #{map-get($breakpoint-up, $breakpoint)} {
+    @content;
+  }
+}
+@mixin mq-down($breakpoint: md) {
+  @media #{map-get($breakpoint-down, $breakpoint)} {
+    @content;
+  }
+}
+
+// テキストリンク
+@mixin link-colors() {
+  color: $color-text-link;
+  text-decoration: none;
+  outline: none;
+  &:hover {
+    text-decoration: underline;
+    color: $color-text-hover;
+  }
+  &:visited {
+    color: $color-text-visited;
+  }
+}
+
+@mixin mx-auto() {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin hover-transition() {
+  transition-duration: 0.3s;
+  &:hover,
+  &:active {
+    opacity: 0.7;
+    transition-duration: 0.3s;
+  }
+}
+
+@mixin cursor-pointer() {
+  cursor: pointer;
+}
