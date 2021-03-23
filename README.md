@@ -4,6 +4,31 @@ Nuxt.js(SPA|PWA)で作られた静止画/動画のギャラリーページです
 
 <br>
 
+## 仕様
+
+* PWA（Progressive Web Apps）対応
+* レスポンシブ対応
+* モーダルウィンドウ内のスライダーはSwiperプラグインを採用
+* 表示するコンテンツの管理はjsonで行う
+* PCではキーボード操作対応（Tab・Enterキーで選択、左右キーでスライダー操作、escキーでモーダル解除）
+
+
+<br>
+
+## 仮コンテンツを入れたサンプルページ
+
+* [Gallery](https://koreyome.com/labo/contents/nuxt/pwa/gallery/)
+
+
+<br>
+
+## 起動イメージ
+
+![Gallery1](https://user-images.githubusercontent.com/5539081/112163387-522e0a80-8c30-11eb-9243-09037aa89268.png)
+
+![Gallery2](https://user-images.githubusercontent.com/5539081/112163392-54906480-8c30-11eb-8f09-1544e6970550.png)
+
+<br>
 
 ## Build Setup
 
