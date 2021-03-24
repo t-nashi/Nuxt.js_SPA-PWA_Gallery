@@ -6,6 +6,7 @@ Nuxt.js(SPA|PWA)で作られた静止画/動画のギャラリーページです
 
 ## プロジェクト仕様
 
+* Nuxt.js_SPA-PWA_Galleryをクローン or ダウンロード後、「npm i、npm run dev」でプロジェクトの確認可能 ※[要Node・npm実行環境](https://www.koreyome.com/node-js_npm_install/)
 * Nuxt.js v2.15.3にてプロジェクト作成
 * CSS設計はFLOCSSを採用 ※主要styleはvueファイル内に記述していたりもする
 * 表示するコンテンツの管理はjsonで行っている
@@ -24,7 +25,6 @@ Nuxt.js(SPA|PWA)で作られた静止画/動画のギャラリーページです
 ## コンテンツ管理用のjsonデータ作成補助をするためのスプレッドシート
 
 * [Nuxt.js_SPA-PWA_Galleryのjsonファイル作成補助](https://docs.google.com/spreadsheets/d/1bj0OXiayXWz2l4Reoh8dVtbOjoSviFxMn_Ge5YywYxo/edit?usp=sharing)
-
 
 
 <br>
