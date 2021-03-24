@@ -23,7 +23,7 @@ Nuxt.js(SPA|PWA)で作られた静止画/動画のギャラリーページです
 
 ## コンテンツ管理用のjsonデータ作成補助をするためのスプレッドシート
 
-* [Gallery用jsonデータ生成](https://docs.google.com/spreadsheets/d/1V259sUOVdGBrZLqgO8krz6QKLE29BHzvILiiDS7xNVU/edit?usp=sharing)
+* [Nuxt.js_SPA-PWA_Galleryのjsonファイル作成補助](https://docs.google.com/spreadsheets/d/1bj0OXiayXWz2l4Reoh8dVtbOjoSviFxMn_Ge5YywYxo/edit?usp=sharing)
 
 
 
