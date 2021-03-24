@@ -8,12 +8,23 @@ Nuxt.js(SPA|PWA)で作られた静止画/動画のギャラリーページです
 
 * Nuxt.js v2.15.3にてプロジェクト作成
 * CSS設計はFLOCSSを採用 ※主要styleはvueファイル内に記述していたりもする
-* PWA（Progressive Web Apps）対応 ※Android: Chrome、iOS: Safariからホーム画面へ追加可能
+* 表示するコンテンツの管理はjsonで行っている
 * 静止画・動画表示に対応
+* サムネイル一つあたりのギャラリー表示は「静止画: 1～5枚、動画: 1つ」の制限あり ※各所調整すれば制限変更可能
+* ギャラリー表示はjsonデータの有無で静止画 or 動画表示の制御をしている
+* その他、タグx10、モーダル内説明文はhtmlタグ使用可能としている
+* PWA（Progressive Web Apps）対応 ※Android: Chrome、iOS: Safariからホーム画面へ追加可能
 * レスポンシブ対応（ブレイクポイント： 340 | 360 | 576 | 768 | 992 | 1200 | 1400）
 * モーダルウィンドウ内のスライダーはSwiperプラグインを採用
-* 表示するコンテンツの管理はjsonで行っている
 * PCではキーボード操作対応（Tab・Enterキーで選択、左右キーでスライダー操作、escキーでモーダル解除）
+
+
+<br>
+
+## コンテンツ管理用のjsonデータ作成補助をするためのスプレッドシート
+
+* [Gallery用jsonデータ生成](https://docs.google.com/spreadsheets/d/1V259sUOVdGBrZLqgO8krz6QKLE29BHzvILiiDS7xNVU/edit?usp=sharing)
+
 
 
 <br>
