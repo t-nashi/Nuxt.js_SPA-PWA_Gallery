@@ -29,7 +29,7 @@ Nuxt.js(SPA|PWA)で作られた静止画/動画のギャラリーページです
 
 <br>
 
-## 仮コンテンツを入れてgenerate後サーバーへアップしたサンプルページ
+## 仮コンテンツを入れてgenerate後サーバーへアップしたページ例
 ![screenshot 1](https://user-images.githubusercontent.com/5539081/112361865-2afe3880-8d17-11eb-9d7f-4025def4f3dd.png)
 * [Gallery](https://koreyome.com/labo/contents/nuxt/pwa/gallery/)
 
