@@ -68,12 +68,12 @@ $ npm run generate
 
 #### ▼ Windows 10 Pro
 
-* node： v12.16.1
+* node: v12.16.1
 * npm: 6.9.0
 
 #### ▼ macOS Big Sur（v11.2.3）
 
-* node： v14.16.0
+* node: v14.16.0
 * npm: 6.14.11
 
 #### ▼ npmインストール済パッケージ
@@ -99,9 +99,9 @@ $ npm run generate
 
 ## Nuxtインストール時の設定
 
-#### $ npx create-nuxt-app gallery
+#### ・コマンド： $ npx create-nuxt-app gallery
 
-| パッケージ | バージョン |
+| 質問 | 回答 |
 |:---|:---|
 |? Generating Nuxt.js project in |**gallery** |
 |? Project name: |**gallery** |
