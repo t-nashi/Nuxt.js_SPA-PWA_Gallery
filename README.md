@@ -44,21 +44,20 @@ Nuxt.js(SPA|PWA)で作られた静止画/動画のギャラリーページです
 
 <br>
 
-## Build Setup
+## npm必要コマンド ※プロジェクトディレクトリにて実行
 
 ```bash
-# install dependencies
+# 必要なパッケージをローカルプロジェクトへインストール
 $ npm install
 
-# serve with hot reload at localhost:3000
+# プロジェクトを立ち上げる
 $ npm run dev
 
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
+# Webサーバー上へアップロードするファイル一式を準備（dist）
 $ npm run generate
+
+# generateコマンドで生成されたファイルからプロジェクトを立ち上げる
+$ npm run start
 ```
 
 <br>
